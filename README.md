@@ -45,4 +45,3 @@ tests/             # Pytest examples
 - **Pydantic v2** models ensure strict input/output validation.
 - **Local cache** avoids expensive rescans; configurable TTL via `.env`.
 - **LLM layer** is a stub — implement `LLMClient.match_query(...)` to integrate OpenAI or a local model.
-- Designed to be **GitHub-ready** as a starting point for your interview demo.
